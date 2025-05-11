@@ -1,5 +1,0 @@
-# EIS-IoT
-Monitoring Real-Time DHT22 Menggunakan MQTT Mosquitto dan Node-RED
-Repo ini merupakan implementasi sistem monitoring real-time berbasis IoT, yang memanfaatkan sensor DHT22 untuk mengukur suhu dan kelembaban. Data sensor yang dikumpulkan oleh ESP32 dikirim melalui protokol MQTT ke broker Mosquitto, sehingga memastikan pengiriman data yang cepat dan andal. Node-RED kemudian mengambil data tersebut untuk ditampilkan dalam dashboard interaktif, memungkinkan pengguna untuk memantau kondisi lingkungan secara langsung.
-
-Implementasi sistem ini tidak hanya menunjukkan kehandalan teknologi MQTT dalam mengelola komunikasi antar perangkat, tetapi juga menambahkan nilai pada integrasi sistem visualisasi data dengan Node-RED. Repo ini menyediakan seluruh kode sumber, konfigurasi, dan dokumentasi alur kerja sistem, sehingga dapat dijadikan referensi bagi pengembang lain yang ingin mempelajari atau mengembangkan sistem IoT serupa. Saran pengembangan lebih lanjut meliputi integrasi database untuk penyimpanan historis data dan fitur notifikasi untuk peringatan kondisi tertentu.
